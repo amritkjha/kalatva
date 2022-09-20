@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kalatva - your favourite music platform!</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav>
+		<ul>
+			<li class="logo"><img src="img/logo.png">Kalatva</li>
+			<li>Home</li>
+			<li>About</li>
+		</ul>
+	</nav>
+
+	<div class="container">
+		<div class="songList">
+			<h1>Best of NCS</h1>
+			<div>
+				<div class="songItem">
+					<img>
+					<span class="songName">Levels-Sidhu Moosewala</span>
+					<span class="dur">04:00</span>
+					<i id="0" class="far songItemPlay fa-play-circle"></i>
+				</div>
+				<div class="songItem">
+					<img>
+					<span class="songName">Yaaran ki rees</span>
+					<span class="dur">04:00</span>
+					<i id="1" class="far songItemPlay fa-play-circle"></i>
+				</div>
+				<div class="songItem">
+					<img>
+					<span class="songName">Bholenath-Kaka Wrld</span>
+					<span class="dur">04:00</span>
+					<i id="2" class="far songItemPlay fa-play-circle"></i>
+				</div>
+				<div class="songItem">
+					<img>
+					<span class="songName">295-Sidhu Moosewala</span>
+					<span class="dur">04:00</span>
+					<i id="3" class="far songItemPlay fa-play-circle"></i>
+				</div>
+				<div class="songItem">
+					<img>
+					<span class="songName">Parche-Karaj Randhawa</span>
+					<span class="dur">04:00</span>
+					<i id="4" class="far songItemPlay fa-play-circle"></i>
+				</div>
+				<div class="songItem">
+					<img>
+					<span class="songName">Sarkar-Jaura Phagwara</span>
+					<span class="dur">04:00</span>
+					<i id="5" class="far songItemPlay fa-play-circle"></i>
+				</div>
+			</div>
+		</div>
+		<div class="songBanner"></div>
+	</div>
+
+	<div class="bottom">
+		<input type="range" name="range" id="myProgressBar" min="0" max="100" value="0">
+		<div class="icons">
+			<i class="far fa-3x fa-step-backward" id="prev-butt"></i>
+			<i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+			<i class="far fa-3x fa-step-forward" id="next-butt"></i>
+		</div>
+		<div class="songInfo">
+			<img src="music.gif" id="gif" width="50px"><span id="masterSong">Levels - Sidhu Moosewala</span>
+		</div>
+	</div>
+	<script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
